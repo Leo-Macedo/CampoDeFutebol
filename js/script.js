@@ -125,7 +125,25 @@ ctx.stroke();
   ctx.fill();
   ctx.stroke();
 
+  //placar cor
+  ctx.fillStyle = "black";
+  ctx.fillRect(540, 0, 70, 100);
 
+  //placar sao
+  ctx.fillStyle = "red";
+  ctx.fillRect(610, 0, 70, 100);
+  
+  //letras
+  ctx.fillStyle='white';
+  ctx.font = '60px Bernard MT Condensed';
+  ctx.fillText('6 x 1', 552, 70);
+
+   //bola
+   var imagem=new Image();
+   imagem.onload=function(){
+   ctx.drawImage(this, 950, 200, 40, 40);
+   }
+   imagem.src = "img/bola.png"; 
 
 
 
