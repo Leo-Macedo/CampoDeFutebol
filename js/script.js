@@ -1,8 +1,6 @@
+//inicializando canvas
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
-
-
-
 
 //campo
 ctx.fillStyle = '#00ff15';
@@ -47,8 +45,89 @@ ctx.stroke();
 
  //meia lua 1
  ctx.beginPath();
- ctx.arc(210,320,100, 1.6,4.7,  Math.PI*1, true);
+ ctx.arc(210,320,100, Math.PI*1.5 ,  Math.PI*0.5, false);
  ctx.stroke();
+
+ //meia lua 2
+ ctx.beginPath();
+ ctx.arc(1010,320,100, Math.PI*1.5 ,  Math.PI*0.5, true);
+ ctx.stroke();
+
+ //penalti 1
+ ctx.fillStyle='white';
+ ctx.beginPath();
+ ctx.arc(150,320, 10,0,Math.PI* 2);
+ ctx.stroke();
+ ctx.fill();
+
+  //penalti 2
+  ctx.beginPath();
+  ctx.arc(1060,320, 10,0,Math.PI* 2);
+  ctx.stroke();
+  ctx.fill();
+
+  //jogadores corinthinas
+  ctx.lineWidth='6'
+  ctx.strokeStyle='black'
+  ctx.fillStyle='white';
+  ctx.beginPath();
+  ctx.arc(40,320, 20,0,Math.PI* 2);
+  ctx.fill();
+  ctx.stroke();
+
+  ctx.beginPath();
+  ctx.arc(400,150, 20,0,Math.PI* 2);
+  ctx.fill();
+  ctx.stroke();
+
+
+  ctx.beginPath();
+  ctx.arc(800,400, 20,0,Math.PI* 2);
+  ctx.fill();
+  ctx.stroke();
+
+  ctx.beginPath();
+  ctx.arc(500,500, 20,0,Math.PI* 2);
+  ctx.fill();
+  ctx.stroke();
+
+  ctx.beginPath();
+  ctx.arc(1000,230, 20,0,Math.PI* 2);
+  ctx.fill();
+  ctx.stroke();
+
+  //jogadores são paulo
+  ctx.lineWidth='6'
+  ctx.strokeStyle='black'
+  ctx.fillStyle='red';
+  ctx.beginPath();
+  ctx.arc(1177,320, 20,0,Math.PI* 2);
+  ctx.fill();
+  ctx.stroke();
+
+  ctx.beginPath();
+  ctx.arc(440,200, 20,0,Math.PI* 2);
+  ctx.fill();
+  ctx.stroke();
+
+  ctx.beginPath();
+  ctx.arc(840,360, 20,0,Math.PI* 2);
+  ctx.fill();
+  ctx.stroke();
+
+  ctx.beginPath();
+  ctx.arc(540,450, 20,0,Math.PI* 2);
+  ctx.fill();
+  ctx.stroke();
+
+  ctx.beginPath();
+  ctx.arc(1050,270, 20,0,Math.PI* 2);
+  ctx.fill();
+  ctx.stroke();
+
+
+
+
 
  
 
