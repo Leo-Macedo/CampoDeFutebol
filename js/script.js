@@ -11,6 +11,27 @@ ctx.strokeStyle = "white";
 ctx.lineWidth = 10;
 ctx.strokeRect(10, 20, 1200, 600);
 
+//escanteio 1
+ ctx.beginPath();
+ ctx.arc(10,20,60, 0 ,  Math.PI*0.5, false);
+ ctx.stroke();
+
+ //escanteio 2
+ ctx.beginPath();
+ ctx.arc(10,620,60, Math.PI*1.5 ,  0, false);
+ ctx.stroke();
+
+  //escanteio 3
+  ctx.beginPath();
+  ctx.arc(1210,20,60, Math.PI*1 ,  Math.PI*0.5, true);
+  ctx.stroke();
+
+   //escanteio 4
+   ctx.beginPath();
+   ctx.arc(1210,620,60, Math.PI*1.5 ,  Math.PI*1, true);
+   ctx.stroke();
+  
+
 //linha do meio
 ctx.beginPath();
 ctx.moveTo(610,620);
