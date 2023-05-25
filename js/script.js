@@ -13,22 +13,22 @@ ctx.strokeRect(10, 20, 1200, 600);
 
 //escanteio 1
  ctx.beginPath();
- ctx.arc(10,20,60, 0 ,  Math.PI*0.5, false);
+ ctx.arc(10,20,40, 0 ,  Math.PI*0.5, false);
  ctx.stroke();
 
  //escanteio 2
  ctx.beginPath();
- ctx.arc(10,620,60, Math.PI*1.5 ,  0, false);
+ ctx.arc(10,620,40, Math.PI*1.5 ,  0, false);
  ctx.stroke();
 
   //escanteio 3
   ctx.beginPath();
-  ctx.arc(1210,20,60, Math.PI*1 ,  Math.PI*0.5, true);
+  ctx.arc(1210,20,40, Math.PI*1 ,  Math.PI*0.5, true);
   ctx.stroke();
 
    //escanteio 4
    ctx.beginPath();
-   ctx.arc(1210,620,60, Math.PI*1.5 ,  Math.PI*1, true);
+   ctx.arc(1210,620,40, Math.PI*1.5 ,  Math.PI*1, true);
    ctx.stroke();
   
 
@@ -165,6 +165,42 @@ ctx.stroke();
    ctx.drawImage(this, 950, 200, 40, 40);
    }
    imagem.src = "img/bola.png"; 
+
+    //numero dos jogadores do corinthians
+
+    ctx.fillStyle='black';
+    ctx.font = '20px Bernard MT Condensed';
+    ctx.fillText('9', 794, 406);
+ 
+    ctx.fillStyle='black';
+    ctx.fillText('10', 989, 236);
+ 
+    ctx.fillStyle='black';
+    ctx.fillText('7', 494, 506);
+ 
+    
+    ctx.fillStyle='black';
+    ctx.fillText('4', 394, 156);
+ 
+    ctx.fillStyle='black';
+    ctx.fillText('12', 29, 326);
+ 
+ //numero dos jogadores do são paulo
+    ctx.fillStyle='black';
+    ctx.fillText('1', 1172, 326);
+ 
+    ctx.fillStyle='black';
+    ctx.fillText('3', 1044, 276);
+ 
+    ctx.fillStyle='black';
+    ctx.fillText('11', 530, 457);
+ 
+    ctx.fillStyle='black';
+    ctx.fillText('16', 828, 368);
+ 
+    ctx.fillStyle='black';
+    ctx.fillText('8', 435, 206);
+ 
 
 
 
