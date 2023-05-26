@@ -117,10 +117,10 @@ ctx.stroke();
   ctx.fill();
   ctx.stroke();
 
-  //jogadores são paulo
+  //jogadores chelsea
   ctx.lineWidth='6'
   ctx.strokeStyle='black'
-  ctx.fillStyle='red';
+  ctx.fillStyle='blue';
   ctx.beginPath();
   ctx.arc(1177,320, 20,0,Math.PI* 2);
   ctx.fill();
@@ -148,16 +148,29 @@ ctx.stroke();
 
   //placar cor
   ctx.fillStyle = "black";
-  ctx.fillRect(540, 0, 70, 100);
+  ctx.fillRect(210, 5, 510, 100);
 
-  //placar sao
-  ctx.fillStyle = "red";
-  ctx.fillRect(610, 0, 70, 100);
-  
-  //letras
+  //placar CHELSEA
+  ctx.fillStyle = "blue";
+  ctx.fillRect(610, 5, 400, 100);
+
+  //linha do placar
+  ctx.strokeStyle = "white";
+  ctx.lineWidth = "5";
+  ctx.strokeRect(210, 5, 800, 100);
+
+  //placar
   ctx.fillStyle='white';
   ctx.font = '60px Bernard MT Condensed';
-  ctx.fillText('6 x 1', 552, 70);
+  ctx.fillText('1  0', 570, 75);
+
+  //nome corinthians
+  ctx.fillStyle='white';
+  ctx.font = '60px Bernard MT Condensed';
+  ctx.fillText('CORINTHIANS', 250, 75);
+
+  //nome chelsea
+  ctx.fillText('CHELSEA', 730, 75);
 
    //bola
    var imagem=new Image();
@@ -172,35 +185,26 @@ ctx.stroke();
     ctx.font = '20px Bernard MT Condensed';
     ctx.fillText('9', 794, 406);
  
-    ctx.fillStyle='black';
     ctx.fillText('10', 989, 236);
  
-    ctx.fillStyle='black';
     ctx.fillText('7', 494, 506);
  
-    
-    ctx.fillStyle='black';
     ctx.fillText('4', 394, 156);
  
-    ctx.fillStyle='black';
     ctx.fillText('12', 29, 326);
  
- //numero dos jogadores do são paulo
-    ctx.fillStyle='black';
+ //numero dos jogadores do chelsea
     ctx.fillText('1', 1172, 326);
  
-    ctx.fillStyle='black';
     ctx.fillText('3', 1044, 276);
  
-    ctx.fillStyle='black';
     ctx.fillText('11', 530, 457);
  
-    ctx.fillStyle='black';
     ctx.fillText('16', 828, 368);
  
-    ctx.fillStyle='black';
     ctx.fillText('8', 435, 206);
  
+    
 
 
 
