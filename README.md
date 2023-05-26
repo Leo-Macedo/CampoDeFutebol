@@ -10,3 +10,4 @@ Fizemos a estrtura inicial colocamos o icone e adicionamos o Canvas e definimos 
 # CSS
 No css apenas definimos a cor de fundo do site.
 
+# Java Script
