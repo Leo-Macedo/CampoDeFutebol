@@ -123,18 +123,22 @@ ctx.beginPath();
 ctx.arc(1177,320, 20,0,Math.PI* 2);
 ctx.fill();
 ctx.stroke();
+
 ctx.beginPath();
 ctx.arc(440,200, 20,0,Math.PI* 2);
 ctx.fill();
 ctx.stroke();
+
 ctx.beginPath();
 ctx.arc(840,360, 20,0,Math.PI* 2);
 ctx.fill();
 ctx.stroke();
+
 ctx.beginPath();
 ctx.arc(540,450, 20,0,Math.PI* 2);
 ctx.fill();
 ctx.stroke();
+
 ctx.beginPath();
 ctx.arc(1050,270, 20,0,Math.PI* 2);
 ctx.fill();
