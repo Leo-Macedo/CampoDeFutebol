@@ -2,6 +2,13 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
+//grama
+//var imagem = new Image();
+//imagem.onload = function () {
+   //ctx.drawImage(this, 10, 20, 1200, 600);
+//}
+//imagem.src = 'img/grama.jpg';
+
 //campo
 ctx.fillStyle = '#00ff15';
 ctx.fillRect(10, 20, 1200, 600);
