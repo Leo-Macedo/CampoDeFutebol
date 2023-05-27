@@ -151,6 +151,11 @@ ctx.arc(1050,270, 20,0,Math.PI* 2);
 ctx.fill();
 ctx.stroke();
 
+//solução temporaria
+
+ctx.beginPath();
+ctx.arc(0,0, 0,0,Math.PI* 2);
+
 
 
 //placar cor
