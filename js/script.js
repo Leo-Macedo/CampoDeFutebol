@@ -156,8 +156,6 @@ ctx.stroke();
 ctx.beginPath();
 ctx.arc(0,0, 0,0,Math.PI* 2);
 
-
-
 //placar cor
 ctx.fillStyle = 'black';
 ctx.fillRect(210, 5, 510, 100);
@@ -178,13 +176,12 @@ ctx.stroke();
 
 //placar
 ctx.fillStyle = 'white';
-ctx.font = '60px Bernard MT Condensed';
-ctx.fillText('1  0', 570, 75);
+ctx.font = '50px Bernard MT Condensed';
+ctx.fillText('1    0', 566, 75);
 
 //nome corinthians
 ctx.fillStyle = 'white';
-ctx.font = '60px Bernard MT Condensed';
-ctx.fillText('CORINTHIANS', 250, 75);
+ctx.fillText('CORINTHIANS', 270, 75);
 
 //nome chelsea
 ctx.fillText('CHELSEA', 730, 75);
