@@ -11,3 +11,4 @@ Fizemos a estrtura inicial colocamos o icone e adicionamos o Canvas e definimos 
 No css apenas definimos a cor de fundo do site.
 
 # Java Script
+Criamos uma variável onde capturamos o elemento id "canvas". Depois, criamos outra variável que recebe o elemento "ctx" em um contexto 2D.
