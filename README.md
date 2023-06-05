@@ -41,7 +41,8 @@ Usamos o mesmo código de círculo em todos os jogadores, apenas mudando sua pos
 <img src="img/jogadores.png" width="600px" height="300px"><br>
 
 ## Placar
-Fizemos dois retângulos, um preto e outro azul, e adicionamos uma borda nele todo. Colocamos um texto para adicionar os números do placar, um texto para o nome 'Corinthians' e outro texto para 'Chelsea'. E por fim, uma linha para dividi-lo ao meio.
+Fizemos dois retângulos, um preto e outro azul, e adicionamos uma borda nele todo. Colocamos um texto para adicionar os números do placar, um texto para o nome 'Corinthians' e outro texto para 'Chelsea'. E por fim, uma linha para dividi-lo ao meio.  
+
 <img src="img/placar.png" width="600px" height="300px"><br>
 ## Bola
 Apenas adicionamos uma imagem da bola e definimos a sua posição.
