@@ -15,8 +15,6 @@ Criamos uma variável onde capturamos o elemento com o id "canvas". Depois, cria
 
 ## Campo
 Para o campo, colocamos a cor e a posição do retângulo.<br>
-
-### Linhas do Campo
 Para as linhas nas laterais, colocamos a cor, o tamanho da linha e definimos as suas posições iguais às do campo.
 
 <img src="img/campo.jpg" width="600px" height="300px"><br>
@@ -31,13 +29,13 @@ Os escanteios fizemos com a curva quadrática, definimos o ponto final e inicial
 Para a linha do meio, apenas definimos o ponto onde se iniciaria e terminaria.
 Para o círculo do meio, apenas colocamos o código padrão do círculo e deixamos a linha grossa. Para a bola no círculo central, apenas mudamos o raio do círculo, diminuindo-o.
 
-<img src="img/campo.jpg" width="600px" height="300px"><br>
+<img src="img/linhameio.jpg" width="600px" height="300px"><br>
 
 ## Área
 Apenas criamos um quadrado maior e outro menor e colamos a linha.
 Para as meia-luas que ficam na grande área, apenas fizemos um círculo pela metade e colocamos false ou true para mudarmos o sentido que a meia-lua está. A marca do pênalti usamos um círculo e preenchemos ele.
 
-<img src="img/areas.jpg" width="600px" height="300px"><br>
+<img src="img/area.jpg" width="600px" height="300px"><br>
 
 ## Jogadores
 Usamos o mesmo código de círculo em todos os jogadores, apenas mudando sua posição e adicionamos borda, alterando a cor dele para jogadores do Corinthians e Chelsea. Adicionamos números aos jogadores com o texto e colocamos a mesma posição dos círculos.
