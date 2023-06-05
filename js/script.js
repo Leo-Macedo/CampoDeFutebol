@@ -42,6 +42,17 @@ ctx.stroke();
 ctx.beginPath();
 ctx.moveTo(610, 620);
 ctx.lineTo(610, 20);
+ctx.stroke();
+
+//circulo do meio
+ctx.beginPath();
+ctx.arc(610, 320, 100, 0, Math.PI * 2);
+ctx.stroke();
+
+//circulo pequeno do meio
+ctx.beginPath();
+ctx.arc(610, 320, 10, 0, Math.PI * 2);
+ctx.stroke();
 
 //area 1
 ctx.strokeRect(10, 160, 200, 320);
@@ -59,15 +70,6 @@ ctx.stroke();
 ctx.strokeRect(1110, 240, 100, 160);
 ctx.stroke();
 
-//circulo do meio
-ctx.beginPath();
-ctx.arc(610, 320, 100, 0, Math.PI * 2);
-ctx.stroke();
-
-//circulo pequeno do meio
-ctx.beginPath();
-ctx.arc(610, 320, 10, 0, Math.PI * 2);
-ctx.stroke();
 
 //meia lua 1
 ctx.beginPath();
@@ -154,6 +156,23 @@ ctx.stroke();
 ctx.beginPath();
 ctx.arc(0,0, 0,0,Math.PI* 2);
 
+//numero dos jogadores do corinthians
+ctx.fillStyle = 'black';
+ctx.font = '20px Bernard MT Condensed';
+ctx.fillText('9', 794, 406);
+ctx.fillText('10', 989, 236);
+ctx.fillText('7', 494, 506);
+ctx.fillText('4', 394, 156);
+ctx.fillText('12', 29, 326);
+
+//numero dos jogadores do chelsea
+ctx.fillText('1', 1172, 326);
+ctx.fillText('3', 1044, 276);
+ctx.fillText('11', 530, 457);
+ctx.fillText('16', 828, 368);
+ctx.fillText('8', 435, 206);
+
+
 //placar cor
 ctx.fillStyle = 'black';
 ctx.fillRect(210, 5, 510, 100);
@@ -191,21 +210,6 @@ imagem.onload = function () {
 }
 imagem.src = 'img/bola.png';
 
-//numero dos jogadores do corinthians
-ctx.fillStyle = 'black';
-ctx.font = '20px Bernard MT Condensed';
-ctx.fillText('9', 794, 406);
-ctx.fillText('10', 989, 236);
-ctx.fillText('7', 494, 506);
-ctx.fillText('4', 394, 156);
-ctx.fillText('12', 29, 326);
-
-//numero dos jogadores do chelsea
-ctx.fillText('1', 1172, 326);
-ctx.fillText('3', 1044, 276);
-ctx.fillText('11', 530, 457);
-ctx.fillText('16', 828, 368);
-ctx.fillText('8', 435, 206);
 
 
 
