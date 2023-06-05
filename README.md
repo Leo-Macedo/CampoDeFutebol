@@ -27,11 +27,12 @@ Os escanteios fizemos com a curva quadrática, definimos o ponto final e inicial
 ## Linha do meio
 Para a linha do meio, apenas definimos o ponto onde se iniciaria e terminaria.
 Para o círculo do meio, apenas colocamos o código padrão do círculo e deixamos a linha grossa. Para a bola no círculo central, apenas mudamos o raio do círculo, diminuindo-o.
-<img src="img/campo.png" width="600px" height="300px">
+<center><img src="img/campo.png" width="600px" height="300px"></center>
 
 ## Área
 Apenas criamos um quadrado maior e outro menor e colamos a linha.
 Para as meia-luas que ficam na grande área, apenas fizemos um círculo pela metade e colocamos false ou true para mudarmos o sentido que a meia-lua está. A marca do pênalti usamos um círculo e preenchemos ele.
+
 <img src="img/areas.png" width="600px" height="300px">
 
 ## Jogadores
