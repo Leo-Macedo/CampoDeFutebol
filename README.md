@@ -49,7 +49,7 @@ Fizemos dois retângulos, um preto e outro azul, e adicionamos uma borda nele to
 ## Bola
 Apenas adicionamos uma imagem da bola e definimos a sua posição.
 
-<img src="img/bola2.jpg" width="600px" height="300px"><br
+<img src="img/bola2.jpg" width="600px" height="300px">
 
 
 
