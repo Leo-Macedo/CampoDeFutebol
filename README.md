@@ -33,7 +33,7 @@ Para o círculo do meio, apenas colocamos o código padrão do círculo e deixam
 Apenas criamos um quadrado maior e outro menor e colamos a linha.
 Para as meia-luas que ficam na grande área, apenas fizemos um círculo pela metade e colocamos false ou true para mudarmos o sentido que a meia-lua está.
 A marca do pênalti usamos um círculo e preenchemos ele.
-<img src="img/areas.png" width="300px" height="600px">
+<img src="img/areas.png" width="600px" height="300px">
 
 ## Jogadores
 Usamos o mesmo código de círculo em todos os jogadores, apenas mudando sua posição e adicionamos borda, alterando a cor dele para jogadores do Corinthians e Chelsea. Adicionamos números aos jogadores com o texto e colocamos a mesma posição dos círculos.
