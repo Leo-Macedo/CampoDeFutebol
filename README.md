@@ -18,7 +18,9 @@ Para o campo, colocamos a cor e a posição do retângulo.<br>
 
 ### Linhas do Campo
 Para as linhas nas laterais, colocamos a cor, o tamanho da linha e definimos as suas posições iguais às do campo.
+
 <img src="img/campo.png" width="600px" height="300px"><br>
+
 
 ## Escanteios
 Os escanteios fizemos com a curva quadrática, definimos o ponto final e inicial da linha e puxamos a curva do meio dela.
