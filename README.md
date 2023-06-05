@@ -27,7 +27,7 @@ Os escanteios fizemos com a curva quadrática, definimos o ponto final e inicial
 ## Linha do meio
 Para a linha do meio, apenas definimos o ponto onde se iniciaria e terminaria.
 Para o círculo do meio, apenas colocamos o código padrão do círculo e deixamos a linha grossa. Para a bola no círculo central, apenas mudamos o raio do círculo, diminuindo-o.
-<center><img src="img/campo.png" width="600px" height="300px"><br>
+<img src="img/campo.png" width="600px" height="300px"><br>
 
 ## Área
 Apenas criamos um quadrado maior e outro menor e colamos a linha.
