@@ -25,11 +25,13 @@ Os escanteios só fizemos um codigo similar ao do circula fazendo alterações p
 ## Linha do meio 
 Para a linha do meio apenas definimos o ponto onde se iniciaria e terminaria.
 
-## Pequena e Grande 
-Apenas criamos um quadrado e seu tamanho e colamos a linha.
+## Pequena e Grande Área
+Apenas criamos um quadrado e seu tamanho e colamos a linha.<br>
+
+### Meias luas
+Para as meia luas que ficam na grande área apenas fizemos um circulo pela metade ai colocamos false ou true para mudarmos o sentido que o a meia lua está.
 
 ## Circulo do meio e a bola do meio
 Para o circulo do meio apenas colocamos o codico padrão do circulo e deixamos a linha grossa,para a bola no circulo central apenas mudamos o raio do circulo.
 
-## Meias luas
-Para as meia luas que ficam na grande área apenas fizemos um circulo pela metade ai colocamos false ou true para mudarmos o sentido que o a meia lua está.
+
